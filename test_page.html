@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ความกว้างอยู่ที่ 900 - 1024 -->
+    <table style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto;">
+        <tr>
+            <td colspan="3" style="text-align: center; padding-top: 20px; padding-bottom: 15px;"> PRIEST 'S HOSPITAL
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;  padding-top: 10px; padding-bottom: 30px;">แบบบันทึกทางการพยาบาล
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: 300px; border-left: solid 1px; border-top: solid 1px; border-right: solid 1px; padding: 10px;">
+                รับไว้ในหอผู้ป่วย
+            </td>
+            <td
+                style="width: 300px; border-left: solid 1px; border-top: solid 1px; border-right: solid 1px; padding: 10px;">
+                รับใหม่จาก
+            </td>
+            <td
+                style="width: 300px; border-left: solid 1px; border-top: solid 1px; border-right: solid 1px; padding: 10px;">
+                นำส่งขอผู้ป่วย
+            </td>
+        </tr>
+        <tr>
+            <td
+                style="width: 300px; border-left: solid 1px; border-bottom: solid 1px; border-right: solid 1px; padding: 10px;">
+                <input type="checkbox" name="" id="">
+                เดินมา
+                <input type="checkbox" name="" id="">
+                รถนั่ง
+                <input type="checkbox" name="" id="">
+                รถนอน
+            </td>
+            <td
+                style="width: 300px; border-left: solid 1px; border-bottom: solid 1px; border-right: solid 1px; padding: 10px;">
+                <input type="checkbox" name="" id="">
+                OPD
+                <input type="checkbox" name="" id="">
+                ER
+                <input type="checkbox" name="" id="">
+                ย้ายตึก
+                <input type="text" name="" id="" style="width: 70px; border: none; border-bottom: dotted 1px;">
+            </td>
+            <td
+                style="width: 300px; border-left: solid 1px; border-bottom: solid 1px; border-right: solid 1px; padding: 10px; ">
+                <input type="checkbox" name="" id="">
+                ญาติ
+                <input type="checkbox" name="" id="">
+                เวรเปล
+                <input type="checkbox" name="" id="">
+                อื่นๆ
+                <input type="text" name="" id="" style="width: 70px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                บุคคลที่ติดต่อได้
+                <input type="text" name="" id="" style="width: 270px; border: none; border-bottom: dotted 1px;">
+                เกี่ยวข้องเป็น
+                <input type="text" name="" id="" style="width: 200px; border: none; border-bottom: dotted 1px;">
+                โทร
+                <input type="text" name="" id="" style="width: 150px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                อาการสำคัญที่มาโรงพยาบาล
+                <input type="text" name="" id="" style="width: 674px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <input type="text" name="" id="" style="width: 868px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                ประวัติเจ็บป่วยในอดีต โรคประจำตัว
+                <input type="checkbox" name="" id=""> ไม่มี
+                <input type="checkbox" name="" id=""> ระบุ
+                <input type="text" name="" id="" style="width: 200px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <span style="margin-left: 145px;"></span> การผ่าตัด
+                <span style="margin-left: 19px;"></span>
+                <input type="checkbox" name="" id=""> ไม่มี
+                <input type="checkbox" name="" id=""> เคย ระบุ
+                <input type="text" name="" id="" style="width: 200px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                ประวัติการแพ้ยา
+                <span style="margin-left: 34px;"></span>
+                <input type="checkbox" name="" id=""> ไม่แพ้
+                <span style="margin-left: 22px;"></span>
+                <input type="checkbox" name="" id=""> แพ้ยา
+                <input type="text" name="" id="" style="width: 120px; border: none; border-bottom: dotted 1px; ">
+                อาการแสดง
+                <input type="text" name="" id="" style="width: 367px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                ประวัติเจ็บป่วยปัจจุบัน
+                <input type="text" name="" id="" style="width: 728px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <input type="text" name="" id="" style="width: 868px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <input type="text" name="" id="" style="width: 868px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                การวินิจฉัยแรกรับ
+                <input type="text" name="" id="" style="width: 756px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                สภาพผู้ป่วยแรกรับ
+                <input type="text" name="" id="" style="width: 750px; border: none; border-bottom: dotted 1px;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <input type="text" name="" id="" style="width: 872px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                <input type="text" name="" id="" style="width: 872px; border: none; border-bottom: dotted 1px; ">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="padding: 10px; padding-top: 20px;">
+                Vital Signs แรกรับ T
+                <input type="text" name="" id="" style="width: 56px; border: none; border-bottom: dotted 1px;">
+                <sup>o</sup>c
+                P
+                <input type="text" name="" id="" style="width: 56px; border: none; border-bottom: dotted 1px;">
+                ครั้ง/นาที
+                R
+                <input type="text" name="" id="" style="width: 55px; border: none; border-bottom: dotted 1px;">
+                ครั้ง/นาที
+                BP
+                <input type="text" name="" id="" style="width: 55px; border: none; border-bottom: dotted 1px;">
+                mmHG
+                BW
+                <input type="text" name="" id="" style="width: 55px; border: none; border-bottom: dotted 1px;">
+                Kg.
+                O<sub> 2</sub>
+                sat
+                <input type="text" name="" id="" style="width: 55px; border: none; border-bottom: dotted 1px;">
+                %
+            </td>
+        </tr>
+    </table>
+    <br><br>
+    <table style=" border: solid 1px; width: 900px; border-collapse: collapse; margin: auto;">
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                ว.ด.ป. /เวลา
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                ข้อมูล/การวินิจฉัยการพยาบาล
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                ข้อมูลการปฏิบัติการพยาบาล
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                การประเมินผล
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                ผู้บันทึก
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 250; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 220px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 150; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 120px; border: none;">
+            </td>
+            <td style="padding: 5px; border: solid 1px; text-align: center;">
+                <input type="text" name="" id="" style="width: 80px; border: none;">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding: 5px; width: 100px; border: none; text-align: left;">
+                Name of patient
+                <input type="text" name="" id="" style="width: 246px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: left;">
+                Ward
+                <input type="text" name="" id="" style="width: 176px; border: none;">
+            </td>
+            <td colspan="2" style="padding: 5px; width: 100px; border: solid 1px; text-align: left;">
+                Hospital number
+                <input type="text" name="" id="" style="width: 161px; border: none;">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="padding: 5px; width: 100px; border: solid 1px; text-align: left;">
+                Department of Service
+                <input type="text" name="" id="" style="width: 200px; border: none;">
+            </td>
+            <td style="padding: 5px; width: 100px; border: solid 1px; text-align: left;">
+                Age
+                <input type="text" name="" id="" style="width: 180px; border: none;">
+            </td>
+            <td colspan="2" style="padding: 5px; width: 100px; border: solid 1px; text-align: left;">
+                Attending Physician
+                <input type="text" name="" id="" style="width: 135px; border: none;">
+            </td>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>
